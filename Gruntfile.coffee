@@ -5,8 +5,6 @@ module.exports = (grunt)->
       compile:
         files:
           "lib/simditor-attachment.js":"src/simditor-attachment.coffee"
-          "lib/module.js":"src/module.coffee"
-          "lib/simditor.js":"src/simditor.coffee"
     sass:
         dist:
         	file:

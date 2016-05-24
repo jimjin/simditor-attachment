@@ -1,3 +1,10 @@
+((factory)->
+  if (typeof define is 'function') and define.amd
+    define ['simditor', 'simditor-attachment'], factory
+  else
+    factory window.Simditor, window.attachment
+)(($, Simditor)->
+
 class AttachmentButton extends Simditor.Button
 
   name: 'attachment'
@@ -231,3 +238,5 @@ class AttachmentButton extends Simditor.Button
 
 
 Simditor.Toolbar.addButton(AttachmentButton)
+
+)
