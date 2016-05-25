@@ -1,9 +1,19 @@
-.simditor .simditor-body video{
+.simditor .simditor-body attachment{
     width: 100px;
     height: 100px;
     border: 1px solid #ccc;
     cursor: pointer;
 }
-.simditor .simditor-body iframe {
-  border: 0 none;
+
+.simditor-toolbar>ul>li>.toolbar-item.toolbar-item-attachment>input[type=file] {
+  position: absolute;
+  top: 10;
+  right: 5;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  cursor: pointer;
+  width: 25px;
+  overflow: hidden;
 }
