@@ -6,7 +6,7 @@
     ]
   ],
   "_from": "git://github.com/jimjin/simditor-attachment.git",
-  "_id": "simditor-attachment@0.0.8",
+  "_id": "simditor-attachment@0.0.9",
   "_inCache": true,
   "_location": "/simditor-attachment",
   "_phantomChildren": {},
@@ -68,5 +68,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.8"
+  "version": "0.0.9"
 }
